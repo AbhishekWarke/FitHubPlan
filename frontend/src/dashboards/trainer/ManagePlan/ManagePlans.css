@@ -1,0 +1,121 @@
+.manage-container {
+  padding: 3rem 2rem;
+}
+
+.manage-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.manage-title span {
+  color: #ff8c00;
+}
+
+/* Plans Grid */
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Plan Card */
+.plan-card {
+  padding: 1.8rem;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(77, 166, 255, 0.08),
+    rgba(255, 140, 0, 0.08)
+  );
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.15);
+}
+
+.plan-meta {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+/* Actions */
+.plan-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn {
+  background: #4da6ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-modal {
+  background: #fff;
+  padding: 2rem;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.edit-modal input,
+.edit-modal textarea {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Modal Actions */
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background: #ff8c00;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+}
+
+.cancel-btn {
+  background: #aaa;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+}

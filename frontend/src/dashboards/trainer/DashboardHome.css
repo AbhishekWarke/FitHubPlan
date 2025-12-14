@@ -1,0 +1,101 @@
+/* ============================= */
+/* Branding text */
+/* ============================= */
+.brand-fit {
+  color: #ff8c00;
+  font-weight: 700;
+}
+
+.brand-plan {
+  color: #4da6ff;
+  font-weight: 700;
+}
+
+.brand-hub {
+  color: #ff8c00;
+  font-weight: 700;
+}
+
+/* ============================= */
+/* Trainer Guidelines – Modern */
+/* ============================= */
+.guidelines-modern-card {
+  width: 75%;
+  margin: 3.5rem auto;
+  padding: 2.5rem;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 140, 0, 0.08),
+    rgba(255, 77, 0, 0.06)
+  );
+  border-left: 6px solid #ff8c00;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.guidelines-modern-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.guidelines-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.guidelines-title span {
+  color: #ff8c00;
+}
+
+.guidelines-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.guidelines-list li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* ============================= */
+/* Growth / Vision Section */
+/* ============================= */
+.growth-card {
+  width: 75%;
+  margin: 4rem auto;
+  padding: 2.5rem;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(77, 166, 255, 0.08),
+    rgba(255, 140, 0, 0.08)
+  );
+  border-left: 6px solid #4da6ff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.growth-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.growth-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.growth-title span {
+  color: #ff8c00;
+}
+
+.growth-card p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
